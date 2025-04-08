@@ -1,0 +1,6 @@
+float32 angle_1
+float32 angle_2
+float32 angle_3
+float32 angle_4
+float32 angle_5
+float32 angle_6

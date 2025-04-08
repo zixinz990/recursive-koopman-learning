@@ -1,0 +1,34 @@
+rkl_node:
+  ros__parameters:
+    ctrl_type: 1  # 0: LQR; 1: SAC
+    online_update: 1  # 0: disable; 1: enable
+    learn_weight: 0.0
+    poly_obs: 0 # 0: poly; 1: Gaussian RBFs
+
+    ctrl_horizon: 10
+
+    mpc_q_weights_x: 17.0
+    mpc_q_weights_y: 17.0
+    mpc_q_weights_vx: 1.5
+    mpc_q_weights_vy: 1.5
+    mpc_q_weights_obs: 0.0
+
+    mpc_r_weights_1: 1.5
+    mpc_r_weights_2: 1.5
+    mpc_r_weights_3: 1.5
+    mpc_r_weights_4: 1.5
+    mpc_r_weights_5: 1.5
+    mpc_r_weights_6: 1.5
+
+    mpc_qf_weights_x: 0.0
+    mpc_qf_weights_y: 0.0
+    mpc_qf_weights_vx: 0.0
+    mpc_qf_weights_vy: 0.0
+    mpc_qf_weights_obs: 0.0
+
+    sac_r_weights: 0.0015
+
+    input_lb: 40.0
+    input_ub: 110.0
+
+    input_maf_window_size: 6
