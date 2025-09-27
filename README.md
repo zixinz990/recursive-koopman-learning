@@ -1,6 +1,6 @@
 # Recursive Koopman Learning
 
-This codebase is used for the Recursive Koopman Learning (RKL) experiments. It contains C++ implementations of RKL.
+This codebase is used for the Recursive Koopman Learning (RKL) experiments on the Soft Stewart Platform. It contains C++ implementations of RKL.
 
 **Sample-Efficient Online Control Policy Learning with Real-Time Recursive Model Updates**, Zixin Zhang, James Avtges, Todd D. Murphey, [pdf](https://www.arxiv.org/abs/2509.08241), [website](https://www.zixinatom990.com/home/robotics/corl-2025-recursive-koopman-learning).
 
